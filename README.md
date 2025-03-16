@@ -1,3 +1,14 @@
+使用install-cuda.bat安装
+
+代理安装必要库
+pip install --proxy http://127.0.0.1:11301 e .
+
+http下载checkpoints到根目录。http下载无须注册HF
+
+python tools\run_webui.py
+
+运行感受，不易整合、默认语音生成不错，随意语音模拟生成失败。不折腾弃坑。
+
 <div align="center">
 <h1>Fish Speech</h1>
 
