@@ -1,4 +1,6 @@
 使用install-cuda.bat安装
+python -m pip install --proxy %PROXY_URL% torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/cu121
+它要求的 torch版本高。一搬都是用  2.0.0
 
 代理安装必要库
 pip install --proxy http://127.0.0.1:11301 e .
